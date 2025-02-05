@@ -1,0 +1,26 @@
+
+# Ignora arquivos de backup
+*.bak
+
+# Ignora arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Ignora a pasta de dependências de pacotes (por exemplo, node_modules em projetos Node.js)
+node_modules/
+
+# Ignora arquivos do Docker
+*.swp
+docker-compose.override.yml
+Dockerfile*
+
+# Ignora arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de ambiente
+.env
+
+# Ignora pastas ou arquivos relacionados a ferramentas específicas de build
+dist/
+build/
